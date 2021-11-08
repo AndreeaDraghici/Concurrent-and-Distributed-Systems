@@ -19,7 +19,10 @@ Laboratory no. 4
 --
 - Laboratory task: https://docs.google.com/document/d/1bgQCN8aumVwUvQ7IOQnM0TAiKYSb5V4mfCy6FXMLT3Q/edit
 
-
+Laboratory no. 5
+--
+- Laboratory task: https://docs.google.com/document/d/1KLN0633-F93_kgOVjQBuc3llMxuqhxyt1WX5C1JoDqc/edit
+- Laboratory notes: https://docs.google.com/presentation/d/1ttbnc_1bN1U_Yr9gDZqFCmPGRviA_dhyJosZHXhEHAY/edit#slide=id.ga8cc35c530_0_56
 
 
 
@@ -27,4 +30,4 @@ Laboratory no. 4
 Release Notes
 --
 
-All labs were developed in Java using IntelliJ IDEA as IDE
+All labs were developed in Java using IntelliJ IDEA as IDE.
