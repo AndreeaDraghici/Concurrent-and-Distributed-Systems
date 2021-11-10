@@ -25,7 +25,6 @@ Laboratory no. 5
 - Laboratory notes: https://docs.google.com/presentation/d/1ttbnc_1bN1U_Yr9gDZqFCmPGRviA_dhyJosZHXhEHAY/edit#slide=id.ga8cc35c530_0_56
 
 
-
 ---
 Release Notes
 --
