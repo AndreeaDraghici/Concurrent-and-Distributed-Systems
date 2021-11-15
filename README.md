@@ -26,7 +26,7 @@ Laboratory no. 5
 
 Laboratory no. 6
 --
-- 
+- Laboratory task: https://docs.google.com/document/d/12UvgwEwned_IzoviUpdtdcvf_0wqbypIkc8y-kJsoUI/edit
 ---
 Release Notes
 --
