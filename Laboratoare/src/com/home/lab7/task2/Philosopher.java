@@ -8,35 +8,49 @@ public class Philosopher extends Thread {
     public Global rightFork;
 
     Philosopher(int num, Global left, Global right) {
-        number = num;
-        leftFork = left;
-        rightFork = right;
+        this.number = num;
+        this.leftFork = left;
+        this.rightFork = right;
     }
 
     public void run() {
-        System.out.println("Philosopher #" + number);
-
-        do {
-            leftFork.grab();
-            System.out.println("Philosopher #" + number + " grabs left fork.");
-            rightFork.grab();
-            System.out.println("Philosopher #" + number + " grabs right fork.");
-            eat();
-            leftFork.release();
-            System.out.println("Philosopher #" + number + " releases left fork.");
-            rightFork.release();
-            System.out.println("Philosopher #" + number + " releases right fork.");
-        } while (true);
+        System.out.println("Philosopher " + number);
+        try {
+            while (true) {
+                leftFork.grab();
+                System.out.println("Philosopher " + number + " grabs left fork.");
+                rightFork.grab();
+                System.out.println("Philosopher " + number + " grabs right fork.");
+                eat();
+                think();
+                leftFork.release();
+                System.out.println("Philosopher " + number + " releases left fork.");
+                rightFork.release();
+                System.out.println("Philosopher " + number + " releases right fork.");
+            }
+        } catch (Exception e) {
+            System.out.println("Philosopher " + number + " was interrupted.");
+        }
     }
 
-    void eat() {
+    private void eat() {
         try {
-            int sleepTime = ThreadLocalRandom.current().nextInt(0, 1000);
-            System.out.println("Philosopher #" + " eats for " + sleepTime);
-            Thread.sleep(sleepTime);
+            int sleepTime = ThreadLocalRandom.current().nextInt(0, 5);
+            System.out.println("Philosopher " + " eats for " + sleepTime);
+            Thread.sleep(5);
         } catch (Exception e) {
-            System.out.println("Could not eat due to: " + e.getMessage());
             e.printStackTrace();
         }
     }
+
+    private void think() {
+        try {
+            System.out.println("Philosopher " + number + " is thinking.");
+            System.out.flush();
+            Thread.sleep(ThreadLocalRandom.current().nextInt(0, 5));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 }

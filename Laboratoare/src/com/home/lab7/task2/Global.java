@@ -9,17 +9,16 @@ public class Global extends Thread {
         lock = new ReentrantLock();
     }
 
-    void grab() {
+   public void grab() {
         try {
             if (lock.tryLock())
                 lock.lock();
         } catch (Exception e) {
             System.out.println("Could not grab due to: " + e.getMessage());
-            e.printStackTrace();
         }
     }
 
-    void release() {
+    public void release() {
         lock.unlock();
     }
 }

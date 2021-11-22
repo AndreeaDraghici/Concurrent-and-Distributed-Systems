@@ -3,7 +3,6 @@ package com.home.lab7.task1;
 import java.util.Queue;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
-import java.util.logging.Logger;
 import java.util.stream.IntStream;
 
 public class Producer extends Thread {

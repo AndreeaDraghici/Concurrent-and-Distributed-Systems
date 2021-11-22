@@ -3,8 +3,8 @@ package com.home.lab7.task2;
 import java.util.stream.IntStream;
 
 public class Main {
-    static Philosopher philosophers[] = new Philosopher[5];
-    static Global forks[] = new Global[5];
+    static final Philosopher philosophers[] = new Philosopher[5];
+    static final Global forks[] = new Global[5];
 
     public static void main(String argv[]) {
 
