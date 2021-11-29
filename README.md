@@ -31,6 +31,11 @@ Laboratory no. 6
 Laboratory no.7
 --
 - Laboratory task: https://docs.google.com/document/d/19ryzAKFALsN0F0x32ckLoOjvRJpqdDOb24Id_pDcBtU/edit
+
+Laboratory no.8
+--
+- Laboratory task: https://docs.google.com/document/d/1GrkE8BNQ5bypRlZdfW6UBOtBuChjPA_hWHR5FrOYXGg/edit
+
 ---
 Release Notes
 --
