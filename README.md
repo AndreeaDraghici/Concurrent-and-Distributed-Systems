@@ -39,6 +39,14 @@ Laboratory no.8
 Laboratory no.9
 --
 - Laboratory task: https://docs.google.com/document/d/1yuUBdB50h_lU-z08NtOqnMIg79f21I9SGL5tGc6ZiCk/edit
+
+Laboratory no.10
+--
+- https://docs.google.com/document/d/1WBm07_LOLn_UIAf8oc_c1oJye2Jg8aO2SWW4x7vY_dQ/edit
+
+Laboratory no.11
+--
+- https://docs.google.com/document/d/11UmO8DzI03Z93HbEpPdIi3DBWpQSM6jTSUoUfCgrRUE/edit
 ---
 Release Notes
 --
